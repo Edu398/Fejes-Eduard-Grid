@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(242, 233, 233);
+}
+#menu ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+h1{
+    margin:auto;
+    text-align: center;
+}
+#container{
+    margin:auto;
+    width: 80%;
+    max-width: 800px;
+    
+
+}
+#asd2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    
+    gap: 5px;
+}
+img{
+    width: 100%;
+    max-width: 200px;
+}
+.cikk{
+    margin:auto;
+    text-align: center;
+    background-color: grey;
+}
