@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(242, 233, 233);
+    background-color: rgb(23, 21, 21);
 }
 #menu ul{
     display: grid;
@@ -24,12 +24,55 @@ h1{
     
     gap: 5px;
 }
-img{
+.cikk img{
     width: 100%;
-    max-width: 200px;
+    max-width: 100px;
 }
 .cikk{
     margin:auto;
     text-align: center;
-    background-color: grey;
+    
+}
+h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3 {
+    color: white;
+}
+ li{
+    color: white;
+}
+.tartalom2 img{
+    width: 100%;
+    
+    margin: auto;
+    
+
+}
+.fotartalom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+  
+
+
+
+
+}
+h4 {
+    color: white;
+}
+.tartalom1 {
+    margin: auto;
+}
+p {
+    color: white;
+}
+
+.szoveg{
+    text-align: center;
+}
+.elso {
+   
 }
