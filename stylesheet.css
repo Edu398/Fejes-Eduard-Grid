@@ -13,7 +13,7 @@ h1{
 #container{
     margin:auto;
     width: 80%;
-    max-width: 800px;
+    
     
 
 }
@@ -33,9 +33,14 @@ h1{
     text-align: center;
     
 }
+#cikku{
+    border-right: 2px solid red;
+}
 h1 {
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px,2px,5px red;
+    
 }
 h3 {
     color: white;
@@ -45,7 +50,7 @@ h3 {
 }
 .tartalom2 img{
     width: 100%;
-    
+    max-width: 800px;
     margin: auto;
     
 
@@ -60,11 +65,21 @@ h3 {
 
 
 }
+
+.valami{
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 500px;
+}
+
 h4 {
     color: white;
 }
 .tartalom1 {
     margin: auto;
+}
+.tartalom1 h1{
+    border-bottom: 2px solid red;
 }
 p {
     color: white;
@@ -75,4 +90,32 @@ p {
 }
 .elso {
    
+}
+#asd3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    text-align: center;
+    margin:auto;
+    gap: 200px;
+    
+}
+#asd3 img {
+    width: 100px;
+    border-radius: 50px;
+}
+.szoveg {
+    text-align: center;
+    margin:auto;
+    width: 100%;
+}
+.gomb {
+    background: rgb(120, 120, 250);
+}
+
+a{
+    text-decoration: none;
+}
+.szoveg h1{
+    border-bottom: 2px solid red;
 }
